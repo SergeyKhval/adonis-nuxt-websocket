@@ -1,7 +1,7 @@
 import { sharedbChannel } from '~/lib/sockets'
 
 export default {
-  created() {
+  mounted() {
     if (sharedbChannel) {
       if (sharedbChannel._io.io.readyState === 'open')
         console.log('readystate = open')

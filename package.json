@@ -27,7 +27,8 @@
     "cross-env": "^5.2.0",
     "nuxt": "^2.3.4",
     "sharedb": "^1.0.0-beta.9",
-    "sharedb-mongo": "^1.0.0-beta.4"
+    "sharedb-mongo": "^1.0.0-beta.4",
+    "vuetify": "^1.4.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
